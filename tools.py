@@ -4,8 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
-
+try:
+    import streamlit as st
+    TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
+except Exception:
+    TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
 def search_web_period(query: str, year: str) -> str:
     """Search the web for content about a topic in a specific year."""

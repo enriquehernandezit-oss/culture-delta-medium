@@ -8,7 +8,14 @@ from tools import search_web_period, search_reddit_period, get_trend_context
 
 load_dotenv()
 
-client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+import os
+try:
+    import streamlit as st
+    ANTHROPIC_API_KEY = st.secrets["ANTHROPIC_API_KEY"]
+except Exception:
+    ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+
+client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 MODEL = "claude-haiku-4-5-20251001"
 
 TOOLS = [
