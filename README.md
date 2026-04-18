@@ -91,5 +91,3 @@ streamlit run app.py
 ---
 
 Built by **Enrique C. Hernandez** — [LinkedIn](https://linkedin.com/in/enriquechernandez)
-
-*Part of a 5-project AI portfolio. Each project is progressively more complex.*
