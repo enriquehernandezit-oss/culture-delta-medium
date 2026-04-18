@@ -154,24 +154,22 @@ hr {
 .col-now { color: #4A90E2; }
 
 .col-text-then {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #888888;
     line-height: 1.6;
 }
 
 .col-text-now {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #E8E8E8;
     font-weight: 500;
     line-height: 1.6;
 }
 
 .significance {
-    font-size: 0.82rem;
-    color: #555555;
-    font-style: italic;
-    padding: 0.5rem 0 0.75rem;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    color: #888888;
+    font-style: normal;
 }
 
 .value-item {

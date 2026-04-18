@@ -151,9 +151,7 @@ Return ONLY a JSON object with this exact structure:
     {{
       "then": "language/phrase used before",
       "now": "language/phrase used now",
-      "significance": "what this shift reveals"
-    }}
-  ],
+"significance": "a specific, concrete explanation of what this linguistic shift reveals about the underlying cultural change — minimum 2 sentences"  ],
   "value_shifts": [
     {{
       "shift": "description of value or attitude that changed",
