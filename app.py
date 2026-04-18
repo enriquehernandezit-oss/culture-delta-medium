@@ -169,7 +169,11 @@ hr {
 .significance {
     font-size: 0.82rem;
     color: #888888;
-    font-style: normal;
+    font-style: normal
+    padding: 1.25rem 0 1.5rem;
+    line-height: 1.75;
+    border-bottom: 1px solid #1E1E1E;
+    margin-bottom: 0.5rem;        
 }
 
 .value-item {
