@@ -133,6 +133,7 @@ hr {
     border: 1px solid #222222;
     border-radius: 8px;
     padding: 1.1rem 1.25rem;
+    margin-bottom: 0.5rem;  
 }
 
 .now-col {
@@ -140,6 +141,7 @@ hr {
     border: 1px solid #1E3050;
     border-radius: 8px;
     padding: 1.1rem 1.25rem;
+    margin-bottom: 0.5rem;
 }
 
 .col-period {
@@ -170,7 +172,7 @@ hr {
     font-size: 0.82rem;
     color: #888888;
     font-style: normal
-    padding: 1.25rem 0 1.5rem;
+    padding: 1.5rem 0 2rem;
     line-height: 1.75;
     border-bottom: 1px solid #1E1E1E;
     margin-bottom: 0.5rem;        
